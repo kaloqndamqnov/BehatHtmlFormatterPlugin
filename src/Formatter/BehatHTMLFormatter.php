@@ -410,7 +410,7 @@ class BehatHTMLFormatter implements Formatter
     }
 
     /**
-     * @param AfterExerciseCompleted $event
+     * @param ExerciseCompleted $event
      */
     public function onAfterExercise(ExerciseCompleted $event)
     {
@@ -433,7 +433,7 @@ class BehatHTMLFormatter implements Formatter
     }
 
     /**
-     * @param AfterSuiteTested $event
+     * @param SuiteTested $event
      */
     public function onAfterSuiteTested(SuiteTested $event)
     {
